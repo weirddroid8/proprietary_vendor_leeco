@@ -21,7 +21,7 @@ ifeq ($(TARGET_DEVICE),x2)
 include $(CLEAR_VARS)
 LOCAL_MODULE := QFingerprintService
 LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/app/QFingerprintService/QFingerprintService.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/QFingerprintService/QFingerprintService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
