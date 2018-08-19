@@ -40,6 +40,24 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/leeco/x2/proprietary/etc/dts/dts-m6m8-lic.key:system/etc/dts/dts-m6m8-lic.key \
     vendor/leeco/x2/proprietary/etc/ecc_conf.xml:system/etc/ecc_conf.xml \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.mbn:system/etc/firmware/cppf.mbn \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/x2/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/x2/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
     vendor/leeco/x2/proprietary/etc/qvop/cmudict.bin:system/etc/qvop/cmudict.bin \
@@ -134,15 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b00:system/vendor/firmware/cppf.b00 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b01:system/vendor/firmware/cppf.b01 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b02:system/vendor/firmware/cppf.b02 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b03:system/vendor/firmware/cppf.b03 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b04:system/vendor/firmware/cppf.b04 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b05:system/vendor/firmware/cppf.b05 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b06:system/vendor/firmware/cppf.b06 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.mbn:system/vendor/firmware/cppf.mbn \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.mdt:system/vendor/firmware/cppf.mdt \
     vendor/leeco/x2/proprietary/vendor/firmware/cyccg.cybin:system/vendor/firmware/cyccg.cybin \
     vendor/leeco/x2/proprietary/vendor/firmware/cyccg_table.cybin:system/vendor/firmware/cyccg_table.cybin \
     vendor/leeco/x2/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
@@ -270,6 +279,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/leeco/x2/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/leeco/x2/proprietary/vendor/lib/libflash_i2c.so:system/vendor/lib/libflash_i2c.so \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -366,6 +376,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/leeco/x2/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_bu63165.so:system/vendor/lib/libois_bu63165.so \
     vendor/leeco/x2/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/leeco/x2/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
