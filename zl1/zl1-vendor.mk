@@ -84,6 +84,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
     vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/etc/qxdm/gps_log.cfg \
     vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
@@ -368,6 +377,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -467,6 +477,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
